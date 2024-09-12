@@ -118,3 +118,20 @@ input[type="radio"] {
 .control:hover {
     background-color: #ccc;
 }
+
+@media (max-width: 500px) {
+    .slider-container {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .caption {
+        font-size: 1rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .slide img {
+        width: 100%; 
+        height: auto;
+    }
+}
